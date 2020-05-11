@@ -1,0 +1,59 @@
+body {
+  background-color: $body-bg;
+  margin: 0;
+  font-family: $headers-font;
+  font-size: 14px;
+  span{
+    font-weight:bold;
+    color: $blue-dark;
+  }
+  h1, h2, h3 {
+    color: $blue-dark;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .link {
+    color: $magenta;
+    font-weight: bold;
+    &:hover{
+      color: $magenta-light;
+      text-decoration: none;
+    }
+  }
+
+  .ic-inner svg{
+    font-size: 20px;
+    color:$blue-dark;
+  }
+  #wrapper {
+    width: 100%;
+    min-height: 600px;
+    padding: 0 !important;
+    background: $body-bg;
+    margin-bottom: 250px;
+  }
+  .hidden{
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  body{
+    #wrapper{
+      margin-bottom: 570px;
+    }
+
+  }
+}

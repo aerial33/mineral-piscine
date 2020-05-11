@@ -1,0 +1,36 @@
+<div class="container testimonials my-5">
+  <div class="glide">
+    <h2 class="mb-4">ce que l'on pense de nous</h2>
+
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+
+        <% data.testimonials.each do |name, testi| %>
+          <li>
+            <div class="glide__slide testimonial-slide">
+              <div class="testimonial-slide-content">
+                <blockquote>"<%= testi.comment %>"
+                 <img id="stars" src=<%= testi.star %> alt='star' width="125" height="20" draggable="false">
+                </blockquote>
+              </div>
+              <div class="testimonial-slide-thumb">
+                <%= image_tag "avatar.png", alt: "avatar" %>
+              </div>
+              <div class="testimonial-slide-name">
+                 <h3><%= testi.name %></h3>
+                 <p><%= testi.city %></p>
+              </div>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+
+    <div class="glide__bullets text-center" data-glide-el="controls[nav]">
+      <button class="glide__bullet" id="bullet-blue" data-glide-dir="=0"></button>
+      <button class="glide__bullet" id="bullet-pink" data-glide-dir=">"></button>
+    </div>
+
+  </div>
+
+</div>

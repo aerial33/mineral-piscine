@@ -1,0 +1,31 @@
+.contain-pool-carousel{
+
+}
+.carousel-pool{
+  position: relative;
+  font-size: 32px;
+  color: white;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  #dir-left{
+    position: absolute;
+    top: 50%;
+  }
+  #dir-right{
+    position:absolute;
+    top:50%;
+    right: 0;
+  }
+  img{
+    width: 100%;
+    height: 212px;
+    border-radius: 2px;
+  }
+}
+
+@media (max-width: 550px){
+  .footer-pool-carousel{
+    .btn-primary-lg{
+      width: 100%;
+    }
+  }
+}

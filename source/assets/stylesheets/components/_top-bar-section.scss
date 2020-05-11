@@ -1,0 +1,42 @@
+.top-bar-section{
+  background-color: $blue;
+  color:white;
+  p{
+    margin: 0;
+    padding-left: 10px;
+  }
+  svg{
+    color:$blue;
+  }
+  .top-bar-links{
+    text-align: center;
+    a{
+      padding-right: 10px;
+      svg{
+        color:white;
+        opacity: .5;
+        font-size: 1.2em;
+        transition: all .3s ease 0s;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.click-to-call{
+  display: block;
+  color: white;
+  transition: all .3s ease 0s;
+  &:hover{
+    text-decoration: none;
+    color:$blue;
+  }
+}
+
+// @media (max-width: 480px){
+//   .click-to-call{
+//     font-size:;
+//   }
+// }

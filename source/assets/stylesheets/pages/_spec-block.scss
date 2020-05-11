@@ -1,0 +1,41 @@
+h2{
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color:$blue-dark;
+  &:before{
+    content:url('/assets/images/bullet-point.png');
+    margin-right: 5px;
+  }
+}
+
+.spec-block{
+  background-color: white;
+  h3{
+    padding: 16px 0;
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+  .ps-column{
+    padding: 40px;
+  }
+  .md-wrapper{
+    background: $blue-dark;
+    border-color: $blue-dark;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 100%;
+    font-size: 72px;
+    #calendar-icon{
+    color: $white;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .spec-block{
+    .md-wrapper{
+      width: 100%;
+    }
+  }
+}

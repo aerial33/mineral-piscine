@@ -1,0 +1,159 @@
+---
+title: Contact | Minéral piscine
+description: pour une étude personalisée de votre projet piscine nous équipe est prête pour vous conseillez, sur Bordeaux et en gironde.
+---
+
+<div class="header-page d-flex justify-content-between align-items-center flex-md-row flex-column text-center px-5">
+  <div>
+    <h1>Contactez Minéral piscine</h1>
+    <p>Votre spécialiste de la piscine coque polyester</p>
+  </div>
+  <div> <%= link_to "TÉLÉPHONE", "tel:0556926206", class: "btn btn-info"  %> </div>
+</div>
+
+
+<div class="container wrapper-body my-3">
+  <div class="py-3">
+    <h2>Bénéficiez d'un conseil personnalisé</h2>
+    <p>
+      Minéral piscine est à votre disposition pour répondre à toutes vos interrogations relatives à votre projet et réaliser votre étude technique personnalisée. <br>
+      Laissez-nous vos coordonnées et nous vous contacterons dans les meilleurs délais.
+    </p>
+
+  </div>
+  <div class="row">
+    <div class="col-12">
+
+      <form method="POST" action="/success" data-netlify="true" netlify-honeypot="bot-field" class="needs-validation border rounded p-3" novalidate>
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
+        <h3>Vos coordonnées</h3>
+        <div class="form-row mb-3">
+          <div class="col-md-3 mb-3">
+            <label for="name">Nom*</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+            <div class="valid-feedback">
+              Ok!
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="prenom">Prénom*</label>
+            <input type="text" name="prenom" class="form-control" id="prenom" placeholder="Prénom" required>
+            <div class="valid-feedback">
+              Ok!
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="email">Email*</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+              </div>
+              <input type="text" name="email" class="form-control" id="email" aria-describedby="" required>
+              <div class="invalid-feedback">
+                Votre email ne semble pas valide.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="phone">Téléphone</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-phone" style="font-size:14px;"></i></span>
+              </div>
+              <input type="text" name="phone" class="form-control" id="phone" aria-describedby="">
+              <div class="invalid-feedback">
+                Votre numéro ne semble pas valide.
+              </div>
+            </div>
+          </div>
+        </div>
+         <h3>Localisation de votre projet</h3>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="adresse">Adresse*</label>
+            <input type="text" name="adresse" class="form-control" id="adresse" required>
+            <div class="invalid-feedback">
+              Votre adresse ne semble pas valide.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="city">Ville*</label>
+            <input class="form-control" name="ville" id="city" required>
+            <div class="invalid-feedback">
+              Votre Ville ne semble pas valide.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Code postale*</label>
+            <input type="text" name="code-postale" class="form-control" id="zip" required>
+            <div class="invalid-feedback">
+              Votre Code postale ne semble pas valide.
+            </div>
+          </div>
+        </div>
+        <h3>Votre projet de piscine</h3>
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group">
+             <select class="form-control" id="projet-pour" name="date-projet">
+               <option>Projet pour ...</option>
+               <option>Dès que possible</option>
+               <option>Dans 3 mois</option>
+               <option>Dans 6 mois</option>
+               <option>Dans plus de 6 mois</option>
+               <option>Ne sait pas</option>
+             </select>
+            </div>
+          </div>
+          <div class="col">
+             <div class="form-group pl-2">
+               <select class="form-control" id="type-projet" name="type-projet">
+                 <option>Intéressé par ...</option>
+                 <option>Piscine en Kit</option>
+                 <option>Piscine en Kit assisté</option>
+                 <option>Prêt au bain</option>
+                 <option>SPA</option>
+                 <option>Ne sait pas</option>
+               </select>
+             </div>
+          </div>
+        </div>
+
+          <div class="form-group">
+               <textarea class="form-control" name="message" id="description" placeholder="Profitez de cet espace pour poser vos questions ou préciser les détails de votre projet.*" rows="8" required></textarea>
+           <div class="invalid-feedback">
+             Decrivez en quelques mots votre projet de piscine.
+           </div>
+           </div>
+
+        <div class="form-group">
+          <p>
+            Seule notre société est destinataire des informations que vous lui transmettez.
+            Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004, vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent.
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Donnez votre accord sur les conditions.
+            </label>
+            <div class="invalid-feedback">
+              Vous devez accepter les conditions.
+            </div>
+          </div>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+        <button class="btn btn-primary btn-block mt-3" type="submit">Envoyer le message</button>
+      </form>
+
+
+    </div>
+  </div>
+</div>
+
+  <div class="map py-3">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22642.88083271171!2d-0.747288!3d44.814228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54dad6c010c38d%3A0x2631ffad66a0fcc9!2s572%20Avenue%20de%20Boulac%2C%2033127%20Saint-Jean-d&#39;Illac%2C%20France!5e0!3m2!1sfr!2sus!4v1588387702780!5m2!1sfr!2sus" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </div>

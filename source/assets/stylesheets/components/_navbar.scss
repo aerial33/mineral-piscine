@@ -1,0 +1,47 @@
+$navbar-hover-color: $magenta;
+$navbar-color: $blue-dark;
+
+
+.navbar-aerial{
+  justify-content: space-between;
+  background: white;
+  padding: 8px 5%;
+  font-family: $headers-font;
+  font-size: 15px;
+  font-weight: 500;
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+  .navbar-brand img{
+    padding: 0;
+    width: 60px;
+  }
+}
+
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:focus .nav-link {
+        color: $navbar-color;
+        transition: all 0.3s ease 0s;
+        &:hover{
+          color:$navbar-hover-color;
+        }
+}
+.navbar-light .nav-item.active .nav-link{
+  color: $navbar-hover-color;
+}
+
+.dropdown-menu {
+  background-color: $blue-dark;
+  .dropdown-item {
+    color: white;
+    transition: all 0.3s ease 0s;
+    &:hover{
+      color:$navbar-hover-color;
+      background-color: $blue-dark;
+    }
+  }
+}
+
+
+
+

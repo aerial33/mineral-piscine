@@ -1,0 +1,38 @@
+.paralax {
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://cdn.pixabay.com/photo/2019/06/02/19/50/water-4247329_960_720.jpg);
+  height: 378px;
+  h2, p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+}
+
+.up-video-wrap {
+    position: relative;
+    text-align: center;
+    a.icon-play{
+      width: auto;
+      height: auto;
+      background: rgba(0,0,0,0.2);
+      border-radius: 100%;
+      padding: 13px;
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    svg {
+      display: block;
+      font-size: 72px;
+      margin: 0 auto;
+      text-indent: 5px;
+      transition: color 0.3s, border-color .3s;
+      line-height: 67px;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "middleman-jstools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "fouad",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "@glidejs/glide": "^3.4.1",
+    "autoprefixer": "^9.6.0",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.0.0",
+    "jquery": "3.4.1",
+    "popper.js": "^1.16.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  }
+}

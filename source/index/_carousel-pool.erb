@@ -1,0 +1,31 @@
+<div class="contain-pool-carousel py-5">
+
+  <div class="container">
+
+    <div class="title-pool-carousel text-center mb-5">
+      <h2>Nos réalisations de piscines</h2>
+    </div>
+
+    <div class="carousel-pool">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <% data.piscines.each do |piscine| %>
+            <li class="glide__slide">
+              <img src=<%= piscine.url %> alt=<%= piscine.name %>>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+      <div id="dir-carousel" data-glide-el="controls">
+        <div id="dir-left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></div>
+        <div id="dir-right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></div>
+      </div>
+    </div>
+
+    <div class="footer-pool-carousel pt-3 text-center">
+      <div"> <%= link_to "NOS PISCINES", "piscines", class: "btn btn-primary-lg"  %> </div>
+    </div>
+
+  </div>
+
+</div>

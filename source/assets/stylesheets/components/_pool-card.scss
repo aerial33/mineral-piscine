@@ -1,0 +1,41 @@
+.pool-card{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    height: 400px;
+    /*object-fit: cover;*/
+  }
+  p{
+    margin: 0;
+    opacity: .9;
+    font-weight: bold;
+    color: $blue-dark;
+  }
+  h3{
+    margin: 0;
+    text-transform: uppercase;
+    color: $magenta;
+  }
+  a{
+    text-decoration: none;
+    color: $magenta;
+    font-size: 14px;
+    margin-top: 24px;
+    transition: all 0.3s ease 0s;
+    &:hover{
+      font-weight: bold;
+    }
+  }
+}
+
+.pool-card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 24px;
+}
+
+

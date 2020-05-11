@@ -1,0 +1,50 @@
+.broch-block{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: $blue-dark;
+  h2{
+    color:white;
+    font-size: 1.2em;
+    font-weight: 300;
+    &:before{
+      content:none;
+    }
+  }
+  p,a{
+    color:white;
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+
+.up-btn{
+  background: $blue-dark;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  min-height: 40px;
+  line-height: 45px;
+  transition: all .6s ease-out;
+  &:hover{
+    background-color: $gray-light;
+    color:$blue-dark;
+    text-decoration: none;
+  }
+}
+
+
+@media (max-width: 750px){
+  .broch-block{
+    .btn-primary-lg{
+      display: block;
+    }
+    h2{
+      font-size: 1.2em;
+      padding-bottom: 10px;
+    }
+  }
+}
