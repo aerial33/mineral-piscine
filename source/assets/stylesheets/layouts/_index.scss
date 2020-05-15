@@ -3,12 +3,13 @@ body {
   margin: 0;
   font-family: $headers-font;
   font-size: 14px;
+  min-height: 100vh;
   span{
     font-weight:bold;
-    color: $blue-dark;
+    color: #232F4D;
   }
   h1, h2, h3 {
-    color: $blue-dark;
+    color: #2C3B59;
   }
 
   h1{
@@ -35,7 +36,7 @@ body {
 
   .ic-inner svg{
     font-size: 20px;
-    color:$blue-dark;
+    color:$cadet-blue;
   }
   #wrapper {
     width: 100%;

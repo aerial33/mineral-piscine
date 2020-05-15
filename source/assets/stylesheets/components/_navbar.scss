@@ -1,43 +1,97 @@
-$navbar-hover-color: $magenta;
-$navbar-color: $blue-dark;
+$navbar-hover-color: $cadet-blue;
+$navbar-color: tomato;
 
 
 .navbar-aerial{
+  display: flex;
   justify-content: space-between;
-  background: white;
-  padding: 8px 5%;
-  font-family: $headers-font;
-  font-size: 15px;
-  font-weight: 500;
-  .navbar-collapse{
-    flex-grow: 0;
+  align-items: center;
+  margin: 0;
+  background: $navbar-color;
+  padding: 10px 7%;
+  position: fixed;
+  z-index:3;
+  width: 100%;
+  .menu-icon {
+    display: none;
   }
-  .navbar-brand img{
-    padding: 0;
-    width: 60px;
-  }
-}
-
-.navbar-light .nav-item .nav-link,
-.navbar-light .nav-item:focus .nav-link {
-        color: $navbar-color;
+  nav{
+    font-size: 16px;
+    font-weight: 500;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      margin: 0;
+      li {
+        padding-left: 18px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
         transition: all 0.3s ease 0s;
-        &:hover{
-          color:$navbar-hover-color;
+        &:hover {
+          color: $navbar-hover-color;
         }
-}
-.navbar-light .nav-item.active .nav-link{
-  color: $navbar-hover-color;
+      }
+    }
+  }
 }
 
-.dropdown-menu {
-  background-color: $blue-dark;
-  .dropdown-item {
-    color: white;
-    transition: all 0.3s ease 0s;
-    &:hover{
-      color:$navbar-hover-color;
-      background-color: $blue-dark;
+
+@media (max-width: 800px) {
+  .navbar-aerial{
+    display: block;
+    padding: 0;
+    .logo {
+      img{
+        margin: 1.2em;
+      }
+    }
+    .menu-icon {
+      display: block;
+      cursor:pointer;
+      float: right;
+      margin: 32px;
+/*       .bars {
+        background: #fff;
+        display: inline-block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 2em;
+        &:before, &:after{
+          background: #fff;
+          content: '';
+          display: block;
+          height: 100%;
+          position: absolute;
+          transition: all .2s ease-out;
+          width: 100%;
+        }
+        &:before {
+          top: 5px;
+        }
+        &:after {
+          top: -5px;
+        }
+      } */
+    }
+    nav{
+        display: none;
+        justify-content: center;
+      ul {
+        flex-direction: column;
+        text-align: center;
+        transition: max-height 400ms ease-in-out;
+        li {
+          padding-bottom: 1em;
+        }
+      }
+      .menu {
+          display: flex;
+      }
     }
   }
 }

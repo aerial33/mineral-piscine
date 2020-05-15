@@ -1,32 +1,23 @@
-<div class="navbar sticky-top navbar-expand-md navbar-light navbar-aerial">
-  <% link_to "/", class: "navbar-brand" do %>
+<div class="navbar">
+    <% link_to "/", class: "logo" do %>
      <%= image_tag "logo-mineral-piscine.png", alt: "mineral-piscine" %>
     <% end %>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <% link_to "index", class: "nav-link" do %>
-            <i class="fas fa-home"></i>
-          <% end %>
-        </li>
-        <li class="nav-item">
-          <%= link_to "Minéral piscine", "about", class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to "PISCINES", "piscines", class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to "ACTUALITES", "about", class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to "CONTACT", "contact", class: "nav-link" %>
-        </li>
-    </ul>
+  <div class="burger">
+    <i class="fas fa-bars"></i>
   </div>
 
+  <ul class="nav">
+    <li class="navlink">
+      <%= link_to "MINÉRAL PISCINE", "about", class: "item" %>
+    </li>
+    <li class="navlink">
+      <%= link_to "PISCINES", "/piscines", class: "item" %>
+    </li>
+    <li class="navlink">
+      <%= link_to "ACTUALITES", "about", class: "item" %>
+    </li>
+    <li class="navlink">
+      <%= link_to "CONTACT", "contact", class: "item" %>
+    </li>
+  </ul>
 </div>

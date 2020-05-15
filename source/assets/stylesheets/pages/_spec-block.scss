@@ -1,7 +1,7 @@
 h2{
   font-size: 1.4em;
   text-transform: uppercase;
-  color:$blue-dark;
+  color:$cadet-blue;
   &:before{
     content:url('/assets/images/bullet-point.png');
     margin-right: 5px;
@@ -20,8 +20,8 @@ h2{
     padding: 40px;
   }
   .md-wrapper{
-    background: $blue-dark;
-    border-color: $blue-dark;
+    background: $cadet-blue;
+    border-color: $cadet-blue;
     border-radius: 4px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     width: 100%;
