@@ -5,8 +5,10 @@ import '@fortawesome/fontawesome-free/js/all';
 import './navbar';
 import './slide';
 import './filter-gallery';
+import { loadDynamicBannerText } from './banner';
 
 
+loadDynamicBannerText();
 // Relative dependencies (our code)
 $('#video-play').click(() => {
   const src = 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdouceurpiscinepolyester%2Fvideos%2F967413833677302%2F&show_text=0&height=320';

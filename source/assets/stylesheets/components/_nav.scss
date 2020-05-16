@@ -20,7 +20,7 @@ $header-transition: all 0.35s ease;
   position: fixed;
   z-index:3;
   padding: 10px 7%;
-  background: rgba(0, 0, 0, 0.5);
+  background: transparent;
   color: $header-font;
   .nav {
     display: flex;
