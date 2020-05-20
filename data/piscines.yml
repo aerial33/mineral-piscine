@@ -1,55 +1,24 @@
-- name: marine-400-10m2
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588602311/douceur-piscine/Marine-400-10m2.jpg
-  thumb: marine-400.jpg
-  type: "fond plat"
-  tag: fond_plat
-- name: Lavande
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588602236/douceur-piscine/Lavande-volet-immerg.jpg
-  thumb: ~
+- name: Elegance_8m
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.jpg
+  thumb: elegance8.png
   type: "fond plat | volet immergé"
   tag: fond_plat
-- name: Lavande
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588602288/douceur-piscine/Lavande.jpg
-  thumb: ~
+- name: Tendance
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/tendance_2.jpg
+  thumb: tendance.jpg
   type: "fond plat | volet immergé"
-  tag: fond_plat
-- name: canelle
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588178954/douceur-piscine/canelle.jpg
-  thumb: canelle.jpg
-  type: "fond progressif"
-  tag: fond_progressif
-- name: majorelle
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/majorelle.jpg
+  tag: volet_immerge
+- name: Evidence
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5.jpg
   thumb: majorelle.jpg
   type: "fond progressif"
   tag: fond_progressif
-- name: praline
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/praline.jpg
-  thumb: praline.jpg
+- name: Elegance
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_2.jpg
+  thumb: elegance7.png
   type: "fond plat"
   tag: fond_plat
-- name: cerise
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588178954/douceur-piscine/cerise.jpg
-  thumb: cerise.jpg
-  type: "fond plat"
-  tag: fond_plat
-- name: parme
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588159158/douceur-piscine/parme.jpg
-  thumb: parme.jpg
-  type: "fond progressif"
-  tag: fond_progressif
-- name: capucine
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588231228/douceur-piscine/capucine.jpg
-  thumb: capucine.jpg
-  type: "fond plat"
-  tag: fond plat
-- name: mandarine
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588196850/douceur-piscine/mandarine.jpg
-  thumb: mandarine.jpg
-  type: "fond plat"
-  tag: fond_plat
-- name: marine
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/MARINE1.jpg
-  thumb: marine.jpg
-  type: "fond plat"
-  tag: fond_plat
+# - name: harmonie
+#   url:
+#   type: "fond plat"
+#   tag: fond_plat

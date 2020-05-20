@@ -1,14 +1,14 @@
-<div class="container py-4">
+<div class="container pt-5">
   <h2>Présentation de notre gamme</h2>
   <h3>
     <ul class="filter-picture">
       <li class="btn-filt pr-2 active" data-filter="all">Toutes les piscines coques polyester </li>|
-      <li class="btn-filt px-2" data-filter="fond_plat">fonds plats </li>|
-      <li class="btn-filt pl-2" data-filter="fond_progressif"> fonds progressifs</li>
+      <!-- <li class="btn-filt px-2" data-filter="fond_plat">fonds plats </li>| -->
+      <li class="btn-filt pl-2" data-filter="volet_immerge"> volet immergé</li>
     </ul>
   </h3>
 
-  <div class="cards py-3">
+  <div class="cards">
    <% data.modeles.each do |owner, piscine| %>
     <div class= "pool-card filter <%= piscine.tag %>" data-toggle="modal" data-target="#modal-<%= piscine.name %>" >
       <%= image_tag piscine.url, alt: piscine.tag, :style => "height: 300px; cursor: pointer" %>
@@ -17,17 +17,17 @@
           <h3><%= owner %></h3>
           <p><%= piscine.type %></p>
         </div>
-          <%#= link_to "en savoir plus","contact" %>
           <%= link_to "en savoir plus", "#{owner}" %>
       </div>
         <div id="modal-<%= piscine.name %>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
-              <%= image_tag piscine.url, alt: piscine.type %>
+              <%= image_tag piscine.url, alt:"piscine coques #{piscine.type}"  %>
             </div>
           </div>
         </div>
     </div>
    <% end %>
   </div>
+  <div class="padded-5"></div>
 </div>

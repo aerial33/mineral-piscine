@@ -1,246 +1,118 @@
-marine:
-  name: "Marine"
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588602311/douceur-piscine/Marine-400-10m2.jpg
-  thumb: marine.jpg
+elegance:
+  name: "Elegance"
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_2.jpg
+  thumb: elegance7.png
   type: "Fond plat"
   tag: fond_plat
   description: ""
-  city_name: "Paris"
+  city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/MARINE1.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179201/douceur-piscine/MARINE2.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179256/douceur-piscine/marine_client.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179150/douceur-piscine/marine_client_1.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_1.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_3.jpg"
   dimension:
-    - serie: MARINE 400
-      long: 4,34m
-      larg: 2,30m
-      prof: 1,46m
-    - serie: MARINE 500
-      long: 5,00m
-      larg: 3,00m
-      prof: 1,46m
-    - serie: MARINE 600
-      long: 6,00m
-      larg: 3,00m
-      prof: 1,46m
-    - serie: MARINE 700
+    - serie: ELEGANCE 7
       long: 7,00m
-      larg: 3,50m
-      prof: 1,46m
-    - serie: MARINE 800
+      larg: 4,00m
+      prof: 1,50m
+    - serie: ELEGANCE 8
       long: 8,00m
-      larg: 4,10m
-      prof: 1,46m
-    - serie: MARINE 900
+      larg: 4,00m
+      prof: 1,50m
+    - serie: ELEGANCE 9
       long: 9,00m
-      larg: 4,10m
-      prof: 1,46m
-    - serie: MARINE 1000
-      long: 10,00m
-      larg: 4,10m
-      prof: 1,46m
+      larg: 4,00m
+      prof: 1,50m
   wifi: false
   rating: 4
-majorelle:
-  name: "Majorelle"
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/majorelle.jpg
-  thumb: majorelle.jpg
-  type: "Fond progressif"
-  tag: fond_progressif
+elegance8:
+  name: "Elegance_8m"
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.jpg
+  thumb: elegance8.png
+  type: "Fond plat"
+  tag: fond_plat
   description: Small flat in Tokyo
-  city_name: "Paris, France"
+  city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/majorelle.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m_2.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1590005845/mineral-piscine/elegance_8m_3.jpg"
   dimension:
-    - serie: majorelle 750
-      long: 7,50m
-      larg: 3,60m
-      prof: 1,86m
-    - serie: majorelle 850
-      long: 8,50m
-      larg: 4,10m
-      prof: 2,00m
-    - serie: majorelle 950
-      long: 9,50m
-      larg: 4,10m
-      prof: 2,00m
+    - serie: ELEGANCE 7
+      long: 7,00m
+      larg: 4,00m
+      prof: 1,50m
+    - serie: ELEGANCE 8
+      long: 8,00m
+      larg: 4,00m
+      prof: 1,50m
+    - serie: ELEGANCE 9
+      long: 9,00m
+      larg: 4,00m
+      prof: 1,50m
   wifi: true
   rating: 3
-lavande:
-  name: lavande
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588602236/douceur-piscine/Lavande-volet-immerg.jpg
-  thumb: lavande.jpg
+tendance:
+  name: Tendance
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/tendance_2.jpg
+  thumb: tendance.jpg
   type: "Fond plat | volet immergé"
-  tag: fond_plat
+  tag: "volet_immerge"
   description: Nice flat in Piccadilly
-  city_name: "London, UK"
+  city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/Lavande.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589137319/douceur-piscine/piscine_lavande.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588916778/douceur-piscine/piscine_lavande_couvert.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_1.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_3.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_4.jpg"
   dimension:
-    - serie: lavande 7
+    - serie: tendance 7
       long: 7,30m
       larg: 3,50m
       prof: 1,45m
-    - serie: lavande 8
+    - serie: tendance 8
       long: 8,30m
       larg: 4,00m
       prof: 1,45m
-    - serie: lavande 9
+    - serie: tendance 9
       long: 9,30m
       larg: 4,00m
       prof: 1,45m
   wifi: true
   rating: 5
-praline:
-  name: Praline
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/praline.jpg
-  thumb: praline.jpg
+evidence:
+  name: Evidence
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5.jpg
+  thumb: evidence5.png
   type: "Fond plat"
   tag: fond_plat
   description: Nice flat in Piccadilly
-  city_name: "London, UK"
+  city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/praline.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5m.jpg"
   dimension:
-    - serie: praline 800
-      long: 8,00m
-      larg: 4,00m
+    - serie: evidence 5
+      long: 5,00m
+      larg: 3,00m
       prof: 1,50m
-    - serie: praline 900
-      long: 9,00m
-      larg: 4,00m
+    - serie: evidence 6
+      long: 6,00m
+      larg: 3,00m
       prof: 1,50m
   wifi: true
   rating: 5
-canelle:
-  name: canelle
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588178954/douceur-piscine/canelle.jpg
-  thumb: canelle.jpg
-  type: "Fond progressif"
-  tag: fond_progressif
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/canelle.jpg"
-  dimension:
-    - serie: canelle 700
-      long: 7,00m
-      larg: 3,50m
-      prof: 1,54m
-    - serie: canelle 800
-      long: 8,00m
-      larg: 4,00m
-      prof: 1,62m
-    - serie: canelle 900
-      long: 9,00m
-      larg: 4,00m
-      prof: 1,72m
-    - serie: canelle 1000
-      long: 10,00m
-      larg: 4,00m
-      prof: 1,82m
-  wifi: true
-  rating: 5
-mandarine:
-  name: Mandarine
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/mandarine.jpg
-  thumb: mandarine.jpg
+harmonie:
+  name: Harmonie_4
+  url: "/assets/images/harmonie.png"
+  thumb: harmonie4.png
   type: "Fond plat"
   tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
+  description: Une piscine de moins de 10 m2 permet de s'affranchir d'un dépôt...
+  city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/mandarine.jpg"
+    - ""
   dimension:
-    - serie: mandarine 700
-      long: 7,00m
-      larg: 3,10m
-      prof: 1,50m
-    - serie: mandarine 800
-      long: 8,00m
-      larg: 3,50m
-      prof: 1,50m
-    - serie: canelle 900
-      long: 9,00m
-      larg: 3,90m
-      prof: 1,50m
+    - serie: harmonie 4
+      long: 4,30m
+      larg: 2,30m
+      prof: 1,40m
   wifi: true
   rating: 5
-cerise:
-  name: Cerise
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/cerise.jpg
-  thumb: cerise.jpg
-  type: "Fond plat"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/cerise.jpg"
-  dimension:
-    - serie: cerise 545
-      long: 5,45m
-      larg: 3,30m
-      prof: 1,50m
-    - serie: cerise 645
-      long: 6,45m
-      larg: 3,30m
-      prof: 1,50m
-  wifi: true
-  rating: 5
-capucine:
-  name: Capucine
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/capucine.jpg
-  thumb: capucine.jpg
-  type: "Fond plat"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/capucine.jpg"
-  dimension:
-    - serie: capucine 900
-      long: 9,10m
-      larg: 4,10m
-      prof: 1,50m
-    - serie: capucine 1000
-      long: 10,10m
-      larg: 4,10m
-      prof: 1,50m
-  wifi: true
-  rating: 5
-Parme:
-  name: "Parme"
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/parme.jpg
-  thumb: parme.jpg
-  type: "Fond progressif"
-  tag: fond_progressif
-  description: Small flat in Tokyo
-  city_name: "Paris, France"
-  images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/parme.jpg"
-  dimension:
-    - serie: parme 700
-      long: 7,00m
-      larg: 3,50m
-      prof: 1,54m
-    - serie: parme 800
-      long: 8,00m
-      larg: 4,00m
-      prof: 1,52m
-    - serie: parme 900
-      long: 9,00m
-      larg: 4,00m
-      prof: 1,62m
-    - serie: parme 1000
-      long: 10,00m
-      larg: 4,00m
-      prof: 1,72m
-    - serie: parme 1100
-      long: 11,00m
-      larg: 4,00m
-      prof: 1,82m
-  wifi: true
-  rating: 3

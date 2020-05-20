@@ -15,12 +15,11 @@ window.onload = () => {
 // Relative dependencies (our code)
 $(window).on("scroll", function(){
   $(".navbar").toggleClass('bg-white', $(this).scrollTop() > 80);
-
 });
 
 
 $('#video-play').click(() => {
-  const src = 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdouceurpiscinepolyester%2Fvideos%2F967413833677302%2F&show_text=0&height=320';
+  const src = "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F288118001817687%2Fvideos%2F877401286020179%2F&show_text=0&height=320";
   $('#myModal').modal('show');
   $('#myModal iframe').attr('src', src);
 });

@@ -1,3 +1,10 @@
+.btn-primary {
+  color: white;
+  &:hover{
+    color: white;
+  }
+}
+
 .btn-primary-lg{
   background-color: $blue;
   border-color: rgba(110, 203, 238, 1);

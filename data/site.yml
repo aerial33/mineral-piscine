@@ -1,12 +1,12 @@
 site:         "Minéral piscine"
-description:  "Minéral piscine installe votre piscine coque polyester à Bordeaux et en gironde"
+description:  "Minéral piscine installe votre piscine coque polyester à Bordeaux et en Gironde"
 keywords:     "piscine, kit piscine , coque, polyester, Bordeaux, Gironde, installation piscine, projet piscine"
 license:      "mineralpiscine"
 thumbnail: "https://res.cloudinary.com/aquiti/image/upload/c_thumb,w_200,g_face/v1588159159/douceur-piscine/majorelle.jpg"
 geocoding:
-  place:      "175 Avenue des Pyrénées"
-  latitude:   "44.8112212"
-  longitude:  "-0.75058"
+  place:      "175 Avenue des Pyrénées 33140 Villenave d'Ornon"
+  latitude:   ""
+  longitude:  ""
 author:
   name:       "Pascal"
   email:      "contact@douceurmineral.com"
