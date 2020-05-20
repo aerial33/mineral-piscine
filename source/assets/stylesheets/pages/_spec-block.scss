@@ -9,24 +9,23 @@ h2{
 }
 
 .spec-block{
-  background-color: white;
+  padding: 60px 0;
   h3{
+    font-size: 22px;
     padding: 16px 0;
     margin: 0;
     font-weight: 400;
     text-shadow: 0 10px 30px rgba(0,0,0,0.4);
   }
-  .ps-column{
-    padding: 40px;
-  }
   .md-wrapper{
-    background: $cadet-blue;
+    background: $grullo;
+    padding: 12px;
     border-color: $cadet-blue;
     border-radius: 4px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     width: 100%;
     font-size: 72px;
-    #calendar-icon{
+    svg {
     color: $white;
     }
   }

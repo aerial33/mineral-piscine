@@ -1,7 +1,7 @@
 .broch-block{
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: $cadet-blue;
+  background-color: $grullo;
   h2{
     color:white;
     font-size: 1.2em;
@@ -19,7 +19,7 @@
 
 
 .up-btn{
-  background: $cadet-blue;
+  background: $blue;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -31,7 +31,7 @@
   transition: all .6s ease-out;
   &:hover{
     background-color: $gray-light;
-    color:$cadet-blue;
+    color:$grullo;
     text-decoration: none;
   }
 }

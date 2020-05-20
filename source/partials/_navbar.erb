@@ -1,4 +1,4 @@
-<div class="navbar">
+<div class="navbar <%= yield_content :navbar_class %>">
     <% link_to "/", class: "logo" do %>
      <%= image_tag "logo-mineral-piscine.png", alt: "mineral-piscine" %>
     <% end %>

@@ -1,8 +1,12 @@
 ---
 title: Votre piscine Coque Polyester sur Bordeaux | Minéral piscine
 ---
-
+<% content_for(:navbar_class, '') %>
 <%= partial "index/banner" %>
+
+<%= partial "index/block-infos" %>
+
+<%= partial "index/paralax" %>
 
 <div class="container py-3">
   <div class="row">
@@ -50,55 +54,6 @@ title: Votre piscine Coque Polyester sur Bordeaux | Minéral piscine
   </div>
 </div>
 
-<%= partial "index/paralax" %>
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-md-6 my-5">
-      <h2>Nos Services et Savoir-faire</h2>
-      <p>
-        <span>Minéral piscine</span> est là pour vous conseiller et vous accompagner dans le choix et la <span>construction de piscine</span> tout en respectant le budget piscine fixé. Le coût d’une <span>piscine coque</span> est ainsi maîtrisé et sans surprises.
-        Demandez gratuitement <span>un devis piscine coque polyester</span> et une étude personnalisée... <%= link_to "en savoir plus", "about", class:"link"  %>
-      </p>
-    </div>
-    <div class="col-xs-12 col-md-6">
-      <div>
-        <%= image_tag "famille-piscine.jpg", alt: "piscine famille", id:"card-outline"  %>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="spec-block">
-  <div class="container">
-    <div class="d-flex justify-content-around flex-md-row flex-column">
-      <div class="ps-column text-center bg-light">
-        <div class="md-wrapper">
-          <i class="fas fa-award" id= "calendar-icon"></i>
-        </div>
-        <h3>GARANTIE 10 ANS</h3>
-      </div>
-      <div class="ps-column text-center">
-        <div class="md-wrapper">
-          <i class="fas fa-euro-sign" id="calendar-icon"></i>
-        </div>
-          <h3>FINANCEMENT</h3>
-      </div>
-      <div class="ps-column text-center bg-light">
-        <div class="md-wrapper">
-          <i class="fas fa-hard-hat" id="calendar-icon"></i>
-        </div>
-        <h3>SANS SOUS-TRAITANCE</h3>
-      </div>
-      <div class="ps-column text-center">
-        <div class="md-wrapper">
-          <i class="fas fa-university" id="calendar-icon"></i>
-        </div>
-        <h3>SUIVI ADMINISTRATIF</h3>
-      </div>
-    </div>
-  </div>
-</div>
 
 <%= partial "index/brochure" %>
 

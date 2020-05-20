@@ -1,6 +1,5 @@
 .banner {
-  height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://res.cloudinary.com/aquiti/image/upload/v1589210507/mineral-piscine/background.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/aquiti/image/upload/v1589210507/mineral-piscine/background.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center top;
@@ -73,6 +72,7 @@
     }
     span{
       font-size: 48px;
+      line-height: normal;
     }
     .btn-primary-lg{
       display: block;
@@ -100,7 +100,6 @@
     }
     span {
       font-size: 32px;
-      font-weight: 200;
       margin: 0;
     }
     p{
