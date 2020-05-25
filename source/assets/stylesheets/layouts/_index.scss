@@ -6,7 +6,10 @@ body {
   min-height: 100vh;
   span{
     font-weight:bold;
-    color: #232F4D;
+    color: $green-tree;
+  }
+  strong{
+    color: $blue-slate;
   }
   h1, h2, h3 {
     color: #2C3B59;

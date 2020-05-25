@@ -24,7 +24,7 @@ elegance:
       prof: 1,50m
   wifi: false
   rating: 4
-elegance8:
+Elegance:
   name: "Elegance_8m"
   url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.jpg
   thumb: elegance8.png
@@ -101,14 +101,14 @@ evidence:
   rating: 5
 harmonie:
   name: Harmonie_4
-  url: "/assets/images/harmonie.png"
+  url: https://res.cloudinary.com/aquiti/image/upload/v1590402158/mineral-piscine/harmonie.jpg
   thumb: harmonie4.png
   type: "Fond plat"
   tag: fond_plat
   description: Une piscine de moins de 10 m2 permet de s'affranchir d'un dépôt...
   city_name: ""
   images:
-    - ""
+    - "https://res.cloudinary.com/aquiti/image/upload/v1590402158/mineral-piscine/harmonie.jpg"
   dimension:
     - serie: harmonie 4
       long: 4,30m

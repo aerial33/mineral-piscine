@@ -1,7 +1,7 @@
 
 .dimension-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 8px;
   .dimension{
     background-color: $cadet-blue;
@@ -32,6 +32,6 @@
 
 @media (max-width: 980px) {
   .dimension-list {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
