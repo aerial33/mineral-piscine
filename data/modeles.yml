@@ -1,14 +1,14 @@
 elegance:
   name: "Elegance"
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_2.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_2.jpg
   thumb: elegance7.png
   type: "Fond plat"
   tag: fond_plat
   description: ""
   city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_1.webp"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_3.webp"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_1.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_3.jpg"
   dimension:
     - serie: ELEGANCE 7
       long: 7,00m
@@ -26,16 +26,16 @@ elegance:
   rating: 4
 Elegance:
   name: "Elegance_8m"
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.jpg
   thumb: elegance8.png
   type: "Fond plat"
   tag: fond_plat
   description: Small flat in Tokyo
   city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m_2.webp"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance.webp"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1590005845/mineral-piscine/elegance_8m_3.webp"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m_2.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1590005845/mineral-piscine/elegance_8m_3.jpg"
   dimension:
     - serie: ELEGANCE 7
       long: 7,00m
@@ -53,16 +53,16 @@ Elegance:
   rating: 3
 tendance:
   name: Tendance
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/tendance_2.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/tendance_2.jpg
   thumb: tendance.jpg
   type: "Fond plat | volet immergé"
   tag: "volet_immerge"
   description: Nice flat in Piccadilly
   city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_1.webp"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_3.webp"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_4.webp"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_1.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_3.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/tendance_4.jpg"
   dimension:
     - serie: tendance 7
       long: 7,30m
@@ -80,14 +80,14 @@ tendance:
   rating: 5
 evidence:
   name: Evidence
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5.jpg
   thumb: evidence5.png
   type: "Fond plat"
   tag: fond_plat
   description: Nice flat in Piccadilly
   city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5m.webp"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5m.jpg"
   dimension:
     - serie: evidence 5
       long: 5,00m
@@ -101,14 +101,14 @@ evidence:
   rating: 5
 harmonie:
   name: Harmonie_4
-  url: https://res.cloudinary.com/aquiti/image/upload/v1590402158/mineral-piscine/harmonie.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1590402158/mineral-piscine/harmonie.jpg
   thumb: harmonie4.png
   type: "Fond plat"
   tag: fond_plat
   description: Une piscine de moins de 10 m2 permet de s'affranchir d'un dépôt...
   city_name: ""
   images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1590402158/mineral-piscine/harmonie.webp"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1590402158/mineral-piscine/harmonie.jpg"
   dimension:
     - serie: harmonie 4
       long: 4,30m

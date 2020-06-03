@@ -1,20 +1,20 @@
 - name: Elegance_8m
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/elegance_8m.jpg
   thumb: elegance8.png
   type: "fond plat | volet immergé"
   tag: fond_plat
 - name: Tendance
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/tendance_2.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/tendance_2.jpg
   thumb: tendance.jpg
   type: "fond plat | volet immergé"
   tag: volet_immerge
 - name: Evidence
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998734/mineral-piscine/evidence_5.jpg
   thumb: majorelle.jpg
   type: "fond progressif"
   tag: fond_progressif
 - name: Elegance
-  url: https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_2.webp
+  url: https://res.cloudinary.com/aquiti/image/upload/v1589998735/mineral-piscine/elegance_2.jpg
   thumb: elegance7.png
   type: "fond plat"
   tag: fond_plat
