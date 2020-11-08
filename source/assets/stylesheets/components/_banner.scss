@@ -7,7 +7,7 @@
   padding:190px 0;
   .promo {
     background-color: $magenta;
-    width: 100%;
+    width: 50%;
     color: white;
     font-size: 24px;
     letter-spacing: 4px;
@@ -50,6 +50,34 @@
   letter-spacing: 3px;
   padding-top: 10px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.marquee-rtl {
+  overflow: hidden; /* important */
+  width:100%; max-width: 80em; /* A ADAPTER */
+  .defile {
+    background-color: $blue;
+    // color: black;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 400;
+    display: inline-block; /* important */
+    white-space: nowrap; /* important */
+    animation: defilement-rtl 40s infinite linear; /* défilement */
+    cursor: pointer;
+    padding: 10px 2em 10px 100%;
+  }
+}
+@keyframes defilement-rtl {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  100% {
+    -webkit-transform: translate(-100%);
+    transform: translate(-100%);
+  }
 }
 
 .banner p {
