@@ -64,9 +64,12 @@
     font-weight: 400;
     display: inline-block; /* important */
     white-space: nowrap; /* important */
-    animation: defilement-rtl 40s infinite linear; /* défilement */
+    animation: defilement-rtl 120s infinite linear; /* défilement */
     cursor: pointer;
     padding: 10px 2em 10px 100%;
+    &:hover{
+      animation-play-state: paused;
+    }
   }
 }
 @keyframes defilement-rtl {
