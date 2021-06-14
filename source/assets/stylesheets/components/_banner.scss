@@ -44,7 +44,7 @@
 	font-weight: 500;
 	text-align: center;
 	margin: 0;
-	padding-bottom: 40px;
+	padding-bottom: 2.5rem;
 	color: white;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -165,5 +165,20 @@
 @media (max-device-width: 736px) {
 	.banner {
 		background-attachment: scroll;
+	}
+}
+
+@media (max-device-width: 500px) {
+	.banner {
+		h1 {
+			font-size: 36px;
+		}
+		p span {
+			font-size: 1rem;
+		}
+		.hero-title {
+			padding-top: 5em;
+			gap: 1.5em;
+		}
 	}
 }
