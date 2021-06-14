@@ -47,6 +47,7 @@ body {
 		color: $cadet-blue;
 	}
 	#wrapper {
+		overflow: hidden;
 		width: 100%;
 		min-height: 600px;
 		padding: 0 !important;
